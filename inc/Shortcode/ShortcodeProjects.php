@@ -53,14 +53,14 @@
                         array(
                             'type'        => 'dropdown',
                             'heading'     => __('Icon'),
-                            'param_name'  => 'awe_item_icon',
+                            'param_name'  => 'awe_project_item_title',
                             'admin_label' => true,
                             'value'       => array(
-                                'All'    => 'ALL',
-                                'Beef'   => 'BEEF',
-                                'Fish'   => 'FISH',
-                                'Soup'   => 'SOUP',
-                                'Desert' => 'DESERT'
+                                'All'    => '*',
+                                'Beef'   => 'identity',
+                                'Fish'   => 'web-design',
+                                'Soup'   => 'graphic',
+                                'Desert' => 'logos'
                             ),
                         ),
                         array(
