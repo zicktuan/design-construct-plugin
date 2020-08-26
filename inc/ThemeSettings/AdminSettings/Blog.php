@@ -32,22 +32,28 @@ class Blog extends SettingFactory
     public function Blog() {
         $setting = [
             [
-                'label'       => __( 'General', 'bookawesome' ),
+                'label'       => __( 'General', 'nautzick' ),
                 'id'          => 'general',
                 'type'        => 'tab',
                 'section'     => 'blog_setting',
             ],
             [
-                'label'   => __('Receiver', 'awetour'),
-                'id'      => 'listMail',
-                'type'    => 'tab',
-                'section' => 'blogs',
+                'id'      => 'blog_bg',
+                'label'   => __('Background', 'nautzick'),
+                'type'    => 'upload',
+                'section' => 'blog_setting',
             ],
             [
-                'id'      => 'bg',
-                'label'   => __('Background', 'awetour'),
-                'type'    => 'upload',
-                'section' => 'blogs',
+                'id'      => 'blog_header_title_bg',
+                'label'   => __( 'Header Title Background', 'nautzick' ),
+                'type'    => 'text',
+                'section' => 'blog_setting',
+            ],
+            [
+                'id'      => 'blog_header_sub_title_bg',
+                'label'   => __( 'Sub Title Background', 'nautzick' ),
+                'type'    => 'text',
+                'section' => 'blog_setting',
             ],
         ];
         $this->setListSettings($setting);
