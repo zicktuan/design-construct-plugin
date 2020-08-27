@@ -33,7 +33,7 @@ class MyPlugin
 
         do_action('nautzick_before_init');
 
-        // new PostType\PostTypeInit;
+         new PostType\PostTypeInit;
         // new Taxonomies\TaxonomiesInit;
 
         $this->themeSettings();
@@ -53,7 +53,7 @@ class MyPlugin
 
     /**
      * load_module.
-     * Load module for mayxaydung.
+     * Load module for blog.
      */
     protected function loadModule()
     {

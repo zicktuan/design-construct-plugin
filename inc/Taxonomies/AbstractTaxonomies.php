@@ -1,5 +1,5 @@
 <?php
-namespace MayXayDung\Taxonomies;
+namespace MyPlugin\Taxonomies;
 
 /**
  * @author lookawesome team

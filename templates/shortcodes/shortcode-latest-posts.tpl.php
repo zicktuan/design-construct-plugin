@@ -13,8 +13,8 @@
                     </p>
                     <?php if ( !empty($atts['awe_post_title']) || !empty($atts['awe_post_desc']) ): ?>
                         <p>
-                            <a href="#" class="btn btn-dark btn-md btn-round">
-                                <?php _e('Learn more', 'bookawesome') ?>
+                            <a href="<?php echo !empty( $atts['awe_post_url_btn'] ) ? $atts['awe_post_url_btn'] : '' ?>" class="btn btn-dark btn-md btn-round">
+                                <?php echo !empty( $atts['awe_post_btn_name'] ) ? $atts['awe_post_btn_name'] : '' ?>
                             </a>
                         </p>
                     <?php endif; ?>
@@ -34,7 +34,7 @@
                             <?php foreach ( $posts as $post ): ?>
                                 <div class="col-sm-6">
                                     <div class="iconBox">
-                                        <a href="<?php echo get_post_permalink($post->ID) ?>" class="thumbnail">
+                                        <a href="<?php echo get_permalink($post->ID) ?>" class="thumbnail">
                                             <img src="<?php echo get_the_post_thumbnail_url( $post, '409x271' ) ?>" alt="...">
                                         </a>
                                         <div class="iconBox-content">

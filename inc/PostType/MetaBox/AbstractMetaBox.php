@@ -1,13 +1,13 @@
 <?php
 
-namespace MayXayDung\PostType\MetaBox;
+namespace MyPlugin\PostType\MetaBox;
 
 /**
  * @author lookawesome team
  * @version 1.0
  * @package metabox
  * 
- * Register metabox for theme hongdang
+ * Register metabox for theme designer
  */
 abstract class AbstractMetaBox {	
 

@@ -67,6 +67,18 @@ class ShortcodeLatestPosts extends AbstractShortcode
                 "param_name" => "awe_post_desc",
             ),
             array(
+                "type" => "textfield",
+                "heading" => __( "Button Name", "bookawesome" ),
+                "param_name" => "awe_post_btn_name",
+                "value" => "Learn more"
+            ),
+            array(
+                "type" => "textfield",
+                "heading" => __( "Url", "bookawesome" ),
+                "param_name" => "awe_post_url_btn",
+                "value" => "#"
+            ),
+            array(
                 "type" => "dropdown",
                 "heading" => __( "List Category", "bookawesome" ),
                 "param_name" => "category_latest_posts",

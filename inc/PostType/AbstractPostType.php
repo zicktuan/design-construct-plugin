@@ -1,5 +1,5 @@
 <?php
-namespace MayXayDung\PostType;
+namespace MyPlugin\PostType;
 
 /**
  * @author lookawesome team

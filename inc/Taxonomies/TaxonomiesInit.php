@@ -1,19 +1,17 @@
 <?php
 
-namespace MayXayDung\Taxonomies;
+namespace MyPlugin\Taxonomies;
 
-use MayXayDung\Taxonomies\ProductTaxonomie;
 
 /**
  * @author lookawesome team
  * @version 1.0
  * @package taxonomie
  * 
- * Register taxonomie for theme hongdang
+ * Register taxonomie for theme designer
  */
 class TaxonomiesInit {
 
 	public function __construct(){
-		new ProductTaxonomie;
 	}
 }
