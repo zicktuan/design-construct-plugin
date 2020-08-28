@@ -48,20 +48,12 @@
                 array(
                     'type'       => 'param_group',
                     'param_name' => 'items',
-                    'heading'    => esc_html__( 'List Item', 'bookawesome' ),
+                    'heading'    => esc_html__( 'Tabs', 'bookawesome' ),
                     'params'     => array(
                         array(
-                            'type'        => 'dropdown',
-                            'heading'     => __('Icon'),
-                            'param_name'  => 'awe_project_item_title',
-                            'admin_label' => true,
-                            'value'       => array(
-                                'All'    => '*',
-                                'Beef'   => 'identity',
-                                'Fish'   => 'web-design',
-                                'Soup'   => 'graphic',
-                                'Desert' => 'logos'
-                            ),
+                            'type'       => 'textfield',
+                            'param_name' => 'title',
+                            'heading'    => esc_html__('Title', 'bookawesome')
                         ),
                         array(
                             'type'       => 'attach_images',
