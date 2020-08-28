@@ -7,7 +7,7 @@ Version: 1.0
 Author: Nguyen Anh Tuan
 Author URI: https://lookawesome.net/
 License: GPLv2 or later
-Text Domain: nautzick
+Text Domain: bookawesome
 */
 
 if ( ! defined( 'ABSPATH' ) ) {

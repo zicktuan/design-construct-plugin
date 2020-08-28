@@ -36,6 +36,6 @@ abstract class AbstractShortcode extends \WPBakeryShortCode {
 	 * @return string Category name.
 	 */
 	public function get_category() {
-		return esc_html__( 'Looks Awesome', 'nautzick' );
+		return esc_html__( 'Looks Awesome', 'bookawesome' );
 	}
 }

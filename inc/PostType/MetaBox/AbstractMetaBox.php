@@ -17,8 +17,15 @@ abstract class AbstractMetaBox {
 	 */
 	protected $actionField = '';
 
+    protected $useOptionTree = false;
+
 	public function __construct( $objectPosttype ){
 		add_action( 'save_post', array($this, 'save') );
+
+        if ($this->useOptionTree) {
+            add_action('admin_init', array($this, 'output'));
+        }
+
 		$this->objPostType = $objectPosttype;
 	}
 

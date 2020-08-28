@@ -58,15 +58,15 @@ class ThemeSettingInit
 							array(
 								'id'              => 'myplugin_option',
 								'parent_slug'     => apply_filters('myplugin_option_parent_slug', 'themes.php'),
-								'page_title'      => apply_filters('myplugin_option_page_title', __('My Plugin Settings', 'nautzick')),
-								'menu_title'      => apply_filters('myplugin_option_menu_title', __('My Plugin Settings', 'nautzick')),
+								'page_title'      => apply_filters('myplugin_option_page_title', __('My Plugin Settings', 'bookawesome')),
+								'menu_title'      => apply_filters('myplugin_option_menu_title', __('My Plugin Settings', 'bookawesome')),
 								'capability'      => apply_filters('myplugin_option_capability', 'edit_theme_options'),
 								'menu_slug'       => apply_filters('myplugin_option_menu_slug', 'myplugin-options'),
 								'icon_url'        => apply_filters('myplugin_option_icon_url', null),
 								'position'        => apply_filters('myplugin_option_position', null),
-								'updated_message' => apply_filters('myplugin_option_updated_message', __('Theme Options updated.', 'nautzick')),
-								'reset_message'   => apply_filters('myplugin_option_reset_message', __('Theme Options reset.', 'nautzick')),
-								'button_text'     => apply_filters('myplugin_option_button_text', __('Save Changes', 'nautzick')),
+								'updated_message' => apply_filters('myplugin_option_updated_message', __('Theme Options updated.', 'bookawesome')),
+								'reset_message'   => apply_filters('myplugin_option_reset_message', __('Theme Options reset.', 'bookawesome')),
+								'button_text'     => apply_filters('myplugin_option_button_text', __('Save Changes', 'bookawesome')),
 								'sections'        => apply_filters('myplugin_option_sections', $sections),
 								'settings'        => apply_filters('myplugin_option_settings', $settings)
 							)

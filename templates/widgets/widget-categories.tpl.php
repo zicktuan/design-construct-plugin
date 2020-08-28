@@ -1,5 +1,5 @@
 <div class="single-sidebar-widget post-category-widget">
-	<h4 class="category-title"><?php echo isset($instance['title']) ? esc_html__($instance['title'], 'nautzick') : '' ?></h4>
+	<h4 class="category-title"><?php echo isset($instance['title']) ? esc_html__($instance['title'], 'bookawesome') : '' ?></h4>
 	<ul class="cat-list">
 		<?php if (!empty($categories)) : ?>
 			<?php foreach ($categories as $category) : ?>

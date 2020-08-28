@@ -32,11 +32,11 @@ class WidgetRecentPost extends AbstractWidget
 		$numberPost = isset( $instance['number_post'] ) ? absint( $instance['number_post'] ) : 5;
 		?>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:', 'nautzick' ); ?></label>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:', 'bookawesome' ); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'number_post' ); ?>"><?php _e( 'Number of posts to show:', 'nautzick' ); ?>
+			<label for="<?php echo $this->get_field_id( 'number_post' ); ?>"><?php _e( 'Number of posts to show:', 'bookawesome' ); ?>
 			</label>
 			<input class="tiny-text" id="<?php echo $this->get_field_id( 'number_post' ); ?>" name="<?php echo $this->get_field_name( 'number_post' ); ?>" type="number" step="1" min="1" value="<?php echo $numberPost; ?>" size="3" />
 		</p>

@@ -32,14 +32,14 @@ class WidgetTagCloud extends AbstractWidget {
 		$title = isset( $instance['title'] ) ? esc_attr( $instance['title'] ) : '';
 		?>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:', 'nautzick' ); ?></label> 
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:', 'bookawesome' ); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>">
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'taxonomy' ); ?>"><?php _e( 'Taxonomy:', 'nautzick' ); ?></label>
+			<label for="<?php echo $this->get_field_id( 'taxonomy' ); ?>"><?php _e( 'Taxonomy:', 'bookawesome' ); ?></label>
 			<select name="<?php echo $this->get_field_name( 'taxonomy' ); ?>" id="<?php echo $this->get_field_id( 'taxonomy' ); ?>" class="widefat">
-				<option value="category" <?php ( isset( $instance['taxonomy'] ) ) ? selected( $instance['taxonomy'], 'category' ) : ''; ?>><?php _e('Category', 'nautzick' ); ?></option>
-				<option value="tags" <?php ( isset( $instance['taxonomy'] ) ) ? selected( $instance['taxonomy'], 'tags' ) : ''; ?>><?php _e('Tags', 'nautzick' ); ?></option>
+				<option value="category" <?php ( isset( $instance['taxonomy'] ) ) ? selected( $instance['taxonomy'], 'category' ) : ''; ?>><?php _e('Category', 'bookawesome' ); ?></option>
+				<option value="tags" <?php ( isset( $instance['taxonomy'] ) ) ? selected( $instance['taxonomy'], 'tags' ) : ''; ?>><?php _e('Tags', 'bookawesome' ); ?></option>
 			</select>
 		</p>
 		<?php
